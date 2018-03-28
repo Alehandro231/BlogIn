@@ -362,5 +362,46 @@ aside {
 .widget div.subsribe .subsribe-img {
     position: absolute;
     right: 20px;
-    top: 13px;
+    top: 16px;
+}
+
+/* Стилизация переходов со страницы на страницу */
+
+.pager {
+    border-top: 1px solid #e1e0e0;
+    text-transform: uppercase;
+    font-size: 1.125em;
+    font-weight: 700;
+    padding: 30px;
+}
+
+.pager a {
+    color: #818181;
+    text-decoration: none;
+}
+
+.pager a:hover {
+    text-decoration: underline;
+}
+
+.pager p.previous-link {
+    float: left;
+}
+
+.pager p.next-link {
+    float: right;
+}
+
+/* Стилизация футера */
+footer {
+    background: #f8f8f8;
+    border-top: 1px solid #e1e0e0;
+    text-align: center;
+    font-size: 0.8125em;
+    color: #939292;
+    padding: 80px 0 150px;
+}
+
+footer img {
+    margin-bottom: 32px;
 }
