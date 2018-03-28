@@ -252,3 +252,115 @@ header {
     color: #58c93a;
     border-bottom: 3px solid #58c93a;
 }
+
+/* Контентная часть страницы */
+
+/* Основной контент страницы | Левый блок */
+main {
+    float: left;
+    width: 63%;
+    margin-top: 81px;
+}
+
+article {
+    margin-bottom: 47px;
+}
+
+article > header {
+    font-size: 0;
+    background: none;
+    margin-bottom: 20px;
+}
+
+article > h2 {
+    font-size: 1.75em;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 56px 20px;
+    line-height: 1.1;
+    color: #4f4e4e;
+}
+
+article > p {
+    margin: 0 0 33px 20px;
+    line-height: 1.25;
+}
+
+a.more {
+    border: 2px solid #c2c2c2;
+    color: #c2c2c2;
+    text-decoration: none;
+    padding: 12px 19px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 25px;
+}
+
+a:hover.more {
+    color: #339933;
+    border-color: #339933;
+}
+
+/*  | Правый блок */
+
+aside {
+    float: right;
+    width: 28.4%;
+    margin-top: 81px;
+}
+
+.widget {
+    margin-bottom: 62px;
+}
+
+.widget h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #6c6969;
+    background: #f8f8f8;
+    border-left: 2px solid #58c93a;
+    padding: 17px 23px;
+    margin-bottom: 20px;
+}
+
+.widget .search {
+    color: #b9b9b9;
+    font-weight: 400;
+    font-size: 0.75em;
+    border: 1px solid #e1e0e0;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.widget nav {
+    margin: 0 0 0 20px;
+}
+
+.widget nav ul li a {
+    line-height: 1.5;
+}
+
+.widget .subsribe-input {
+    color: #b9b9b9;
+    font-weight: 400;
+    font-size: 0.75em;
+    border: 1px solid #e1e0e0;
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.widget div.subsribe {
+    position: relative;
+    width: 100%;
+    height: 56px;
+}
+
+.widget div.subsribe .subsribe-img {
+    position: absolute;
+    right: 20px;
+    top: 13px;
+}
