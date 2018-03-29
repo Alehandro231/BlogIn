@@ -413,3 +413,48 @@ footer {
 footer img {
     margin-bottom: 32px;
 }
+
+/* Стилизация под планшеты */
+@media screen and (max-width:768px) {
+    .logo {
+        margin: 20px 0 0 20px;
+    }
+    .menu-top li a {
+        padding: 20px 40px;
+    }
+    main {
+        float: none;
+        width: 100%;
+        margin-top: 30px;
+    }
+    aside {
+        float: none;
+        width: 100%;
+        margin-top: 81px;
+    }
+    article header img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .logo {
+        float: none;
+        display: block;
+        margin: 10px auto;
+    }
+    .menu-top li a {
+        padding: 10px 40px;
+        border-left: none;
+        border-left: none;
+        border-right: none;
+    }
+    .menu-top li:first-child a {
+        border-left: none;
+    }
+    .menu-top {
+        float: none;
+        max-width: 81%;
+        margin: 0 auto;
+    }
+}
