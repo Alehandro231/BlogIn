@@ -256,6 +256,12 @@ header {
 /* Контентная часть страницы */
 
 /* Основной контент страницы | Левый блок */
+
+.content {
+    border-right: 1px solid #e1e0e0;
+    border-left: 1px solid #e1e0e0;
+}
+
 main {
     float: left;
     width: 63%;
@@ -328,6 +334,7 @@ aside {
     font-weight: 400;
     font-size: 0.75em;
     border: 1px solid #e1e0e0;
+    border-right: none;
     width: 100%;
     padding: 20px 20px;
 }
@@ -345,6 +352,7 @@ aside {
     font-weight: 400;
     font-size: 0.75em;
     border: 1px solid #e1e0e0;
+    border-right: none;
     width: 100%;
     padding: 20px 50px 20px 20px;
     box-sizing: border-box;
