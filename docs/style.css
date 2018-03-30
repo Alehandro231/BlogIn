@@ -276,7 +276,29 @@ article > header {
     font-size: 0;
     background: none;
     margin-bottom: 20px;
+    position: relative;
 }
+
+/* Добавление описания на картинку, о том кто и конгда разместил пост */
+.publish {
+    font-size: 13px;
+    background: rgba(0,0,0,0.6); color: #fff;
+    position: absolute;
+    bottom: -60px;
+    width: 100%;
+    padding: 7px 20px;
+    box-sizing: border-box;
+    -webkit-transition: bottom 0.3s linear;
+    -moz-transition: bottom 0.3s linear;
+    -o-transition: bottom 0.3s linear;
+    transition: bottom 0.3s linear;
+}
+
+article > header:hover .publish {
+    bottom: 0;
+}
+
+/* Конец Добавление описания на картинку, о том кто и конгда разместил пост */
 
 article > h2 {
     font-size: 1.75em;
@@ -300,6 +322,10 @@ a.more {
     display: inline-block;
     font-weight: 700;
     border-radius: 25px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
 }
 
 a:hover.more {
@@ -454,7 +480,7 @@ footer img {
     }
     .menu-top {
         float: none;
-        max-width: 81%;
+        
         margin: 0 auto;
     }
 }
