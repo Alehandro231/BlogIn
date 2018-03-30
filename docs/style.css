@@ -440,10 +440,16 @@ footer img {
     margin-bottom: 32px;
 }
 
+@media screen and (max-width:1000px) {
+    .logo {
+        margin-left: 20px;
+    }
+}
+
 /* Стилизация под планшеты */
 @media screen and (max-width:768px) {
     .logo {
-        margin: 20px 0 0 20px;
+        margin: 20px 0 0 10px;
     }
     .menu-top li a {
         padding: 20px 40px;
@@ -458,12 +464,19 @@ footer img {
         width: 100%;
         margin-top: 81px;
     }
+    article > h2 {
+        margin-bottom: 30px;
+    }
     article header img {
         width: 100%;
     }
+    .widget img {
+        display: block;
+        margin: 0 auto;
+    }
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:760px) {
     .logo {
         float: none;
         display: block;
@@ -480,7 +493,14 @@ footer img {
     }
     .menu-top {
         float: none;
-        
+        max-width: 639px;
         margin: 0 auto;
+        display: block;
+    }
+}
+
+@media screen and (max-width:651px) {
+    .menu-top {
+        max-width: 331px;
     }
 }
